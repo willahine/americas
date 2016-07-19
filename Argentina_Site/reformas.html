@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>The Argentina MacriMeter</title>
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="js/isotope.pkgd.min.js" type="text/javascript"></script>
+
+
+	<link rel="stylesheet" href="argentine.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="img/favicon.ico" title="Favicon" />
+
+	<script src="https://use.typekit.net/bvk0mln.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<!-- UPDATE SOCIAL INFORMATION -->
+
+	<meta name="description" content="The Reforms scorecard is a list of reforms that Argentina..."/>
+	<link rel="canonical" href="http://argentinareforms.csis.org" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Argentina's Reform Program: A Scorecard" />
+	<meta property="og:description" content="The Reforms scorecard is a list of reforms that Argentina..." />
+	<meta property="og:url" content="http://argentinareforms.csis.org" />
+	<meta property="og:site_name" content="Argentina's Reform Program: A Scorecard"  />
+	<meta property="og:image" content="img/argentine_fb.jpg" />
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:description" content="The Reforms scorecard is a list of reforms that Argentina..."/>
+	<meta name="twitter:title" content="Argentina's Reform Program: A Scorecard"/>
+	<meta name="twitter:site" content="@CSISAmericas"/>
+	<meta name="twitter:domain" content="Argentina's Reform Program: A Scorecard"/>
+	<meta name="twitter:image" content="img/argentine_tw.jpg"/>
+	<meta name="twitter:creator" content="@CSISAmericas"/>
+
+	<!-- END SOCIAL -->
+
+<script>
+
+// insert google tracking code, without script tags
+
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+	</script>
+
+</head>
+
+<body>
+
+	<div id="csis"><a href="http://www.csis.org" target="_blank"><img src="img/csis.png" /></a></div>
+
+	<header class="header overlay">
+		<div class="title">
+	    		<h1>The Argentina MacriMeter</h1>
+			<a href="#start">EMPEZAR</a>
+	        </div>
+	</header>
+
+
+<div id="page-container">
+
+</br><a href="argentine.html" target="_blank">English version</a>
+
+		<div id="site-description">
+
+		<p class="indepth">El presidente de Argentina, Mauricio Macri tomó las riendas del poder el 10 de diciembre de 2015, después de doce años de las políticas populistas de los presidentes Néstor Kirchner y Cristina Fernández de Kirchner. Estos años han dejado al país con muchos retos complejos, sobre todo en políticas económicas. Las reformas que Macri inició en sus primeros días en el cargo, están dirigidas a traer a la Argentina de vuelta a la racionalidad económica y de su reinserción en la economía mundial.</p>
+
+		<p class="indepth">La siguiente sección es una lista de los pasos y las reformas más importantes que se están llevando a cabo en la Argentina, las cuales están siendo planificadas y ejecutadas por el gobierno de Macri. Dicha lista nunca puede ser definitiva. Esta lista pretende ayudar al público a entender las opciones que están sobre la mesa, tomando en cuenta que todas las reformas progresaran a un ritmo independiente. Esta lista será actualizada mensualmente mientras vemos progresos tangibles en cada reforma individual.</p>
+
+		<p class="indepth"><a href="mailto:indiareforms@csis.org">Contact the Americas Program.</a></p>
+
+	<p class="indepth">
+	<a id="social-links" href="https://twitter.com/csisamericas"><img src="img/twitter.png" /></a>
+	<a id="social-links" href="https://www.facebook.com/CSISAmericas/"><img src="img/facebook.png" /></a>
+	&nbsp;&nbsp;
+	<a id="social-links" href="#"><img src="img/email.png" /></a>
+</p>
+
+	<hr />
+
+		</div>
+
+		<br />
+
+		<div class="portfolioFilter">
+
+			<div id="start"></div>
+
+			<h2>REFORMAS POR SECTOR</h2>
+			<div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">All</button>
+				<button class="button" data-filter=".money">Fiscal</button>
+				<button class="button" data-filter=".food">Agricultura</button>
+		  	<button class="button" data-filter=".energy">Energía</button>
+				<button class="button" data-filter=".market">Financiero</button>
+
+				<!-- UNUSED SECTORS
+			  <button class="button" data-filter=".commerce">Commerce and International Trade</button>
+			  <button class="button" data-filter=".defense">Defense</button>
+			  <button class="button" data-filter=".industry">Industry</button>
+			  <button class="button" data-filter=".structure">Infrastructure</button>
+			  <button class="button" data-filter=".political">Political Reform</button>
+			  <button class="button" data-filter=".social">Social Reform</button>
+				<button class="button" data-filter=".security">Security</button>
+				-->
+			</div>
+
+			<h2>ORDENAR</h2>
+			<div id="sorts" class="button-group">
+
+				<!-- <button class="button is-checked" data-sort-by="original-order">Original Order</button> -->
+				<button class="button" data-sort-by="name">Nombre</button>
+				<button class="button" data-sort-by="status">Estado</button>
+				<button class="button" data-sort-by="difficulty">Dificultad</button>
+
+			</div>
+
+			<div class="color_key">
+
+				<ul>
+
+			<li><div id="purple_key"></div><p style="float: left; margin: -1px 5px 0">Completo&nbsp;&nbsp;&nbsp;</p></li>
+			<li><div id="beige_key"></div><p style="float: left; margin: -1px 5px 0">Incompleto&nbsp;&nbsp;&nbsp;</p></li>
+			<li><div id="blue_key"></div><p style="float: left; margin: -1px 5px 0">Non-gubernamental&nbsp;&nbsp;&nbsp;</p></li>
+
+				</ul>
+
+
+			</div>
+
+
+		</div>
+
+		<div class="policycontainer">
+
+			<!-- Eliminate all export duties -->
+
+			<div class="policy food money ">
+				<div class="first">
+					<h2 class="name" id="blue">Eliminate all export duties</h2>
+						<p class="status">In Progress</p>
+						<p class="difficulty">DIFFICULTY: Low</p>
+						<p class="desc">Eliminating all export duties makes Argentine agricultural commodities more competitive in international markets.</p>
+				</div>
+
+				<div class="info-text"><p> In 12/2015, The Macri government <a href="https://www.boletinoficial.gob.ar/#!DetalleNorma/138329/20151217">eliminated</a> export taxes on all commodities excluding soybeans and soy products. Under the decree, export taxes on soybeans and soy products were reduced by five percent.</p></div>
+			</div>
+
+
+
+			<!-- Removal of funds allocated to state to subsidize household -->
+
+
+
+			<div class="policy money energy">
+				<div class="first">
+
+			<h2 class="name" id="purple">Removal of state subsidies for household consumption of electricity and gas</h2>
+			<p class="status">Complete</p>
+			<p class="difficulty">DIFFICULTY: Medium</p>
+			<p class="desc">Implement a new tariff policy that reduces subsidies by $4 billion dollars, decreasing supply costs and encouraging private investment.</p>
+
+				</div>
+
+				<div class="info-text"><p>President Macri imposed the new policy that eliminated subsidies for utility rates stating that the previous subsidies <a href="http://www.telesurtv.net/english/news/Huge-Hikes-in-Electricity-Rates-Become-Official-in-Argentina-20160201-0017.html ">increased supply costs and discouraged private investment</a> </p></div>
+			</div>
+
+
+
+			<!-- Increase the minimum nontaxable income threshold -->
+
+
+
+			<div class="policy money market">
+
+				<div class="first">
+
+					<h2 class="name" id="blue">Increase the minimum nontaxable income threshold </h2>
+					<p class="status">In progress</p>
+					<p class="difficulty">DIFFICULTY: Medium</p>
+
+					<p class="desc">Increase minimum non-taxable income, appeasing unions amid inflation and increasing the income tax brackets.
+		</p>
+				</div>
+
+				<div class="info-text"><p> 02/2016 the government increased the minimum nontaxable income by 160% from $462 (ARS 6,938) to $1,257 (ARS 18,880) for single persons.
+		</p></div>
+
+			</div>
+
+
+			<!-- Access to sovereign credit markets -->
+
+
+			<div class="policy money market">
+
+				<div class="first">
+
+					<h2 class="name" id="purple">Access to sovereign credit markets</h2>
+					<p class="status">Complete</p>
+					<p class="difficulty">DIFFICULTY: High</p>
+					<p class="desc">Reach agreement with bondholders who had not accepted 2005 and 2010 swaps for restructured bonds.</p>
+
+				</div>
+
+					<div class="info-text"><p>On 02/29/2016, the government agreed to pay $4.65 billion dollars to its four largest creditors, led by Elliot Management.</p>
+					</div>
+
+			</div>
+
+
+			<!-- Issue bonds in order to begin debt servicing -->
+
+
+		<div class="policy money market">
+		<div class="first">
+
+					<h2 class="name" id="blue">Issue bonds in order to begin debt servicing</h2>
+					<p class="status">In Progress</p>
+					<p class="difficulty">DIFFICULTY: High</p>
+					<p class="desc"> Permit the government to issue bonds and allow for the return of international markets. </p>
+			</div>
+
+			<div class="info-text"><p>02/2016 U.S Judge Thomas Griesa agreed to drop injunctions that prevented Argentina from issuing new bonds or servicing its restructured debt. Congress agreed in 03/2016 to remove the <a href="https://www.boletinoficial.gob.ar/pdf/linkQR/SGUvZHk2ZUNYbUErdTVReEh2ZkU0dz09">Lock Law and Sovereign Payment Act.</a> 04/2016 Argentina issued $16.5 billion in international bonds. </p>
+			</div>
+
+		</div>
+
+		</div>
+
+		</div>
+
+<div id="footer">
+
+<hr />
+
+		<p class="indepth" style="text-align: center;">
+
+			<!-- Update Tweet language, %20 indicates &nbsp; -->
+		<a id="social-links" href="https://twitter.com/csisamericas"><img src="img/twitter.png" /></a>
+
+		<!-- Update URL / replace * -->
+		<a id="social-links" href="https://www.facebook.com/CSISAmericas/"><img src="img/facebook.png" /></a>
+		&nbsp;&nbsp;
+		<a id="social-links" href="#"><img src="img/email.png" /></a>
+	</p>
+
+<div id="method">
+
+	<p><strong>Methodology:</strong>
+
+
+		<!-- INSERT METHODOLOGY STATEMENT -->
+
+
+	</p>
+
+	<!-- UPDATE PDF LINK -->
+
+	<p style="text-align:center;"><a href="160515_india_reforms.pdf">Download a list of the reforms</a></p>
+
+</div>
+
+<div id="feedback-form">
+
+<!-- INSERT GOOGLE FORM IFRAME -->
+
+</div>
+
+</div>
+
+
+
+<div id="copyright">
+
+	<p>© The Center for Strategic and International Studies 2016 | <a href="#csis">Back to top</a></p>
+
+</div>
+
+		<script type="text/javascript">
+$( document ).ready( function() {
+  // init Isotope
+  var $container = $('.policycontainer').isotope({
+    itemSelector: '.policy',
+    layoutMode: 'fitRows',
+    getSortData: {
+      name: '.name',
+      status: '.status',
+      difficulty: '.difficulty'
+    }
+  });
+  // filter functions
+	var filterFns = {
+		// show if number is greater than 50
+		numberGreaterThan50: function() {
+			var number = $(this).find('.number').text();
+			return parseInt( number, 10 ) > 50;
+		},
+		// show if name ends with -ium
+		ium: function() {
+			var name = $(this).find('.name').text();
+			return name.match( /ium$/ );
+		}
+	};
+  // bind filter button click
+  $('#filters').on( 'click', 'button', function() {
+    var filterValue = $( this ).attr('data-filter');
+    // use filterFn if matches value
+    filterValue = filterFns[ filterValue ] || filterValue;
+    $container.isotope({ filter: filterValue });
+  });
+  // bind sort button click
+  $('#sorts').on( 'click', 'button', function() {
+    var sortByValue = $(this).attr('data-sort-by');
+    $container.isotope({ sortBy: sortByValue });
+  });
+  // change is-checked class on buttons
+  $('.button-group').each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+  });
+});
+		</script>
+
+</body>
+</html>
